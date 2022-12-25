@@ -1,0 +1,277 @@
+body{
+  margin: 0 ;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* framework */
+.single{
+  background-color: hsl(293, 21%, 92%);
+  color: hsl(276, 55%, 52%) ;
+  font-size: 12px ;
+  display: flex ;
+  align-items: center ;
+  gap: 10px ;
+  max-width: 60% ;
+  padding: 10px ;
+  border-radius: 12px 12px 12px 3px ;
+  margin: 10px ;
+}
+/* framework ends */
+
+.container{
+  -webkit-box-sizing: border-box ; 
+  -moz-box-sizing: border-box ; 
+  -o-box-sizing: border-box ; 
+  box-sizing: border-box ; 
+  padding: 0 10px ;
+  margin: 0 auto ;
+  position: relative ;
+  min-height: 20px ;
+}
+
+main{
+  background-color: rgb(251, 249, 249) ;
+  -webkit-box-sizing: border-box ; 
+  -moz-box-sizing: border-box ; 
+  -o-box-sizing: border-box ; 
+  box-sizing: border-box ; 
+  overflow: hidden;
+  display: flex; 
+  justify-content: center ;
+  align-items: center ;
+  min-height: 100vh ;
+  padding: 40px 0 ;
+  position: relative ;
+}
+
+.back{
+  width: 400px ;
+  height: 450px ;
+  position: absolute ;
+}
+
+.left{
+  background-image: linear-gradient( to bottom , hsl(293, 100%, 63%) , hsl(264, 100%, 61%) );
+  border-radius: 0 0 600px 600px  ;
+  top: 0 ;
+  left: -150px ;
+}
+
+.right{
+  background-color: hsl(270, 20%, 96%) ;
+  border-radius: 600px 600px 0 0   ;
+  right: -150px ;
+  bottom: 0 ;
+}
+
+
+.box{
+  display: flex ;
+  flex-flow: wrap column ;
+  justify-content: space-evenly ;
+  align-items: center ;
+}
+
+.text{
+  text-align: center;
+  max-width: 300px ; 
+}
+
+.text h1{
+  color: hsl(271, 36%, 24%) ;
+  margin-top: 50px ;
+  letter-spacing: 3px ;
+}
+
+.text p{
+  color: hsl(270, 7%, 64%) ;
+  line-height: 1.6 ;
+}
+
+
+.phone{
+  background-color: hsl(270, 20%, 96%) ;
+  -moz-box-shadow: 0 5px 20 20 hsl(270, 20%, 96%) ;
+  -moz-box-shadow: 0 5px 20 20 hsl(270, 20%, 96%) ;
+  -moz-box-shadow: 0 5px 20 20 hsl(270, 20%, 96%) ;
+  box-shadow: 20px 0px 15px 5px hsl(270, 20%, 96%) ;
+  width: 300px ;
+  min-height: 500px ;
+  border : 15px solid white ;
+  border-radius: 30px;
+  position: relative ;
+}
+
+.head{
+  background-image: linear-gradient( to right , hsl(293, 100%, 63%) , hsl(264, 100%, 61%) );
+  height: 90px ;
+  border-radius: 30px 30px 6px 6px ;
+  position: relative ;
+}
+
+.head::after{
+  content: "" ;
+  background-color: white;
+  width: 60% ;
+  height: 40px ;
+  position: absolute ;
+  top: -15px ;
+  right: 0 ;
+  left: 0 ;
+  margin: 0 auto ;
+  border-radius: 15px ;
+}
+
+.head .content{
+  display: flex ;
+  justify-content: space-evenly ;
+  align-items: center ;
+  width: 70% ;
+  height: 80% ;
+  position: absolute ;
+  bottom: 0 ;
+}
+
+.head .text-content h4{
+  color: whitesmoke ;
+  margin: 0 ;
+}
+
+.head .text-content p{
+  color: hsl(276, 100%, 81%) ;
+  font-size: 14px ;
+  margin: 3px 0 0 0 ;
+}
+
+.head i{
+  color: whitesmoke ;
+}
+
+.phone .head img{
+  width: 40px ;
+  border: 2px solid white ;
+  border-radius: 50% ;
+}
+
+i.menu{
+  position: absolute ;
+  top: 60% ;
+  right: 15px ;
+  transform: translatey(-50%) ;
+}
+
+.phone .chat{
+  /* cause head took 90px */
+  min-height: calc(100% - 90px) ;
+  position: relative ;
+}
+
+.three-pic{
+  display: flex ;
+  justify-content: flex-end ;
+  gap: 8px ;
+  margin-right: 10px ;
+}
+
+.three-pic img{
+  width: 50px ;
+  border-radius: 15px ;
+}
+  /* right chat */
+.r{
+  background-color: white ;
+  color: black ;
+  border-radius: 12px 12px 3px 12px ;
+  position: relative ;
+  /* making the right chat on the right side */
+  left: calc(40% - 40px) ;
+}
+
+/* div which has price */
+div.single{
+  background-image: linear-gradient( to right , hsl(293, 100%, 63%) , hsl(264, 100%, 61%) );
+  color: whitesmoke ;
+  position: relative ;
+}
+
+div.single p{
+  margin: 0 ;
+}
+
+.circle{
+  width: 15px ;
+  height: 15px ;
+  border: 1px solid white ;
+  border-radius: 50% ;
+}
+
+  /* price */
+div.single span{
+  font-size: 16px ;
+  font-weight: 700;
+  position: absolute ;
+  top: 50% ;
+  right: 20px ;
+  transform: translateY(-50%) ;
+}
+
+.input{
+  background-color:  white ;
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  width: 70% ;
+  padding: 0 10px 0 25px ;
+  border-radius: 30px ;
+  margin: 15px auto ;
+}
+
+.input p{
+  color: hsl(206, 6%, 79%) ;
+  font-size: 14px ;
+}
+
+.input i{
+  font-size: 25px ;
+}
+
+
+@media (min-width: 768px){
+  .container{
+    width: 750px ;
+  }
+
+  .box{
+    flex-flow: wrap row ;
+    justify-content: space-around ;
+  }
+
+  .text{
+    text-align: left ;
+  }
+  .text h1{
+    margin-top: revert ;
+    letter-spacing: revert ;
+  }
+  
+  .back{
+    width: 500px ;
+    height: 650px ;
+  } 
+}
+
+@media (min-width: 992px){
+  .container{
+    width: 970px ;
+  }
+
+  .text{
+    max-width: 400px ;
+  } 
+}
+
+@media (min-width: 1200px){
+  .container{
+    width: 1170px ;
+  }
+}
