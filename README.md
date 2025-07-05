@@ -30,7 +30,7 @@ This project was created as a hands-on learning experience to:
 ## Live Demo
 
 You can view the live, deployed version of this practice project here:
-**[View Live Demo][https://ayham-alloush.github.io/responsive-ui-practice/](https://ayham-alloush.github.io/responsive-ui-practice/)**
+**[View Live Demo](https://ayham-alloush.github.io/responsive-ui-practice/)**
 
 ## What I Learned / Key Takeaways
 
